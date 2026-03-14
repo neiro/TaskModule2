@@ -17,16 +17,19 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Установите зависимости:
+3. Установите зависимости.
+
+Для надёжности я рекомендую вызывать установку и запуск не через `pip` и `jupyter`, а через `python -m ...` именно из локального `.venv`. Так меньше риск случайно попасть в другое окружение:
 
 ```powershell
-pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 4. Запустите Jupyter Notebook:
 
 ```powershell
-jupyter notebook
+.\.venv\Scripts\python.exe -m notebook
 ```
 
 5. Откройте `work.ipynb` и выполните ячейки сверху вниз.
