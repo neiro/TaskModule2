@@ -1,8 +1,8 @@
-numpy==2.4.3
+numpy==1.26.4
 pandas==3.0.1
 matplotlib==3.10.8
 seaborn==0.13.2
-scipy>=1.9,<1.13
+scipy==1.12.0
 SQLAlchemy==2.0.48
 psycopg2-binary==2.9.11
 phik==0.12.5
