@@ -1,0 +1,7 @@
+.venv/
+.ipynb_checkpoints/
+.ipython_tmp/
+__pycache__/
+*.py[cod]
+*.log
+db_conn.txt
